@@ -1,0 +1,40 @@
+@media screen and (min-width: 600px) {
+    .header__menu {
+        display: none;
+    }
+    .burger {
+        display: flex;
+    }
+    .main__content {
+        text-align: center;
+        margin-top: 523px;
+        display: none;
+    }
+    .title {
+        margin-top: 523px;
+        text-align: center;
+        row-gap: 41px;
+    }
+    .first__title {
+        font-size: 61px;
+    }
+    .lower__title {
+        font-size: 81px;
+    }
+    .header__title_second {
+        margin-left: 290px;
+    }
+    .phone__btn {
+        align-items: center;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin-left: 240px;
+        position: relative;
+        bottom: 70px;
+    }
+    .about__item {
+        margin-bottom: 25px;
+    }
+}
